@@ -1,7 +1,5 @@
-package ru.alexgeniusman.java2020.ex7;
+package ru.alexgeniusman.java2020.s1p1.ex7;
 
-import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Main {

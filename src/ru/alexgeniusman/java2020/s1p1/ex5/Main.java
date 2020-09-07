@@ -1,7 +1,4 @@
-package ru.alexgeniusman.java2020.ex5;
-
-import java.util.Arrays;
-import java.util.Random;
+package ru.alexgeniusman.java2020.s1p1.ex5;
 
 public class Main {
 
