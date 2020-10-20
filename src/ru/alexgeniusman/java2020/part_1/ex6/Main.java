@@ -1,4 +1,4 @@
-package ru.alexgeniusman.java2020.s1p1.ex6;
+package ru.alexgeniusman.java2020.part_1.ex6;
 
 import java.util.Arrays;
 import java.util.Random;

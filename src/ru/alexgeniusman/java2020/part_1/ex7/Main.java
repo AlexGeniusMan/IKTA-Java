@@ -1,4 +1,4 @@
-package ru.alexgeniusman.java2020.s1p1.ex7;
+package ru.alexgeniusman.java2020.part_1.ex7;
 
 import java.util.Scanner;
 

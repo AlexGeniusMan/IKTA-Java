@@ -1,6 +1,4 @@
-package ru.alexgeniusman.java2020.s1p2.ex1;
-
-import java.util.ArrayList;
+package ru.alexgeniusman.java2020.part_2.ex1;
 
 public class Nursery {
     private Dog[] dogs = new Dog[1000];

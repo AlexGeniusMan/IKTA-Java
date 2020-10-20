@@ -1,4 +1,4 @@
-package ru.alexgeniusman.java2020.s1p2.ex1;
+package ru.alexgeniusman.java2020.part_2.ex1;
 
 public class Book {
     private String name;

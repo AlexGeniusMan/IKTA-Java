@@ -1,4 +1,4 @@
-package ru.alexgeniusman.java2020.s1p1.ex3;
+package ru.alexgeniusman.java2020.part_2.ex3;
 
 public class Main {
 
