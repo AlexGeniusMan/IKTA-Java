@@ -14,6 +14,7 @@ public class Game extends JFrame {
         super();
         Random rnd = new Random();
         number = rnd.nextInt(20);
+        System.out.println(number);
         JFrame frame = new JFrame("Угадай число");
         JButton button = new JButton("Проверить значение");
         button.setBackground(Color.WHITE);
