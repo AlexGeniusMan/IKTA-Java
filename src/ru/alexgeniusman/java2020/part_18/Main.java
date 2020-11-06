@@ -4,6 +4,10 @@ package ru.alexgeniusman.java2020.part_18;
 import java.util.Scanner;
 
 public class Main {
+
+    // if i = 0 (int): exception
+    //if i = 0.0 (float): INF
+
     public void exceptionDemo() {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Enter an integer");
