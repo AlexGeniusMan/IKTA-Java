@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void print(){
-        // READ
+    public static void print() {
+
         try (FileReader fileReader = new FileReader("exFile.txt")) {
             System.out.println("New text from the file:");
             Scanner scan = new Scanner(fileReader);
@@ -25,7 +25,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // POST
+
         try (FileWriter fileWriter_1 = new FileWriter("exFile.txt", false)) {
             System.out.println("Enter the text that will be added to the file:");
             Scanner in = new Scanner(System.in);
@@ -38,7 +38,7 @@ public class Main {
 
         print();
 
-        // PUT
+
         try (FileWriter fileWriter_2 = new FileWriter("exFile.txt", false)) {
             System.out.println("Enter the text that will replace text in the file:");
             Scanner in = new Scanner(System.in);
@@ -52,7 +52,7 @@ public class Main {
 
         print();
 
-        // PATCH
+
         try (FileWriter fileWriter_3 = new FileWriter("exFile.txt", true)) {
             System.out.println("Enter the text that will be added to the text in the file:");
             Scanner in = new Scanner(System.in);

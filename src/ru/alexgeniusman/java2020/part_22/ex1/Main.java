@@ -11,6 +11,8 @@ public class Main {
         Student student = new Student(0, "Dave Chappelle",
                 dateFormat.parse("01-01-1990"));
         System.out.println(student.getBirthDate("full"));
+        System.out.println(student.getBirthDate("medium"));
+        System.out.println(student.getBirthDate("small"));
     }
 
 }

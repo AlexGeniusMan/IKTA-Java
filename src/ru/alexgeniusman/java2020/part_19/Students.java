@@ -8,23 +8,25 @@ import java.util.Scanner;
 public class Students {
     Student[] students = new Student[5];
     int[] IDNumber = new int[5];
+
     public Students() {
-        students[0] = new Student (2, 4.8, "st1");
-        students[1] = new Student (1, 4.4, "st2");
-        students[2] = new Student (5, 4.9, "st3");
-        students[3] = new Student (3, 3.6, "st4");
-        students[4] = new Student (4, 3.2, "st5");
+        students[0] = new Student(2, 4.8, "st1");
+        students[1] = new Student(1, 4.4, "st2");
+        students[2] = new Student(5, 4.9, "st3");
+        students[3] = new Student(3, 3.6, "st4");
+        students[4] = new Student(4, 3.2, "st5");
 
     }
+
     public void searchByName(String fio) {
-        int check=0;
+        int check = 0;
         for (int i = 0; i < students.length; i++) {
-            if (students[i].getFio()==fio) {
-                System.out.println("\nFound: "+students[i].getId()+" "+students[i].getAverage()+" "+students[i].getFio());
+            if (students[i].getFio() == fio) {
+                System.out.println("\nFound: " + students[i].getId() + " " + students[i].getAverage() + " " + students[i].getFio());
                 check = 1;
             }
         }
-        if (check==0) {
+        if (check == 0) {
             System.out.println("EXCEPTION: NOT FOUND");
         }
     }
@@ -36,11 +38,12 @@ public class Students {
         Collections.sort(studentArrayList, sortingStudentByFIO);
         System.out.print("Sorted by name: ");
         for (Student s : studentArrayList) {
-            System.out.print(s.getFio()+" ");
+            System.out.print(s.getFio() + " ");
         }
     }
+
     public void sortByID() {
-        for (int i=0;i<students.length;i++) {
+        for (int i = 0; i < students.length; i++) {
             IDNumber[i] = students[i].getId();
         }
 
@@ -55,7 +58,7 @@ public class Students {
         }
         System.out.print("Sorted by id: ");
         for (int i = 0; i < 5; i++) {
-            System.out.print(IDNumber[i]+" ");
+            System.out.print(IDNumber[i] + " ");
         }
     }
 

@@ -41,7 +41,7 @@ public class Student {
 
     public String getBirthDate(String format) {
         if (format.equals("small")) {
-            DateFormat dateFormat = new SimpleDateFormat("dd MM");
+            DateFormat dateFormat = new SimpleDateFormat("dd MM yy");
             return dateFormat.format(birthDate);
         }
         if (format.equals("medium")) {
