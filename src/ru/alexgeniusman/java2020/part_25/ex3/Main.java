@@ -1,4 +1,4 @@
-package ru.north32.mireajava.lesson25.exercise3;
+package ru.alexgeniusman.java2020.part_25.ex3;
 
 import java.util.List;
 

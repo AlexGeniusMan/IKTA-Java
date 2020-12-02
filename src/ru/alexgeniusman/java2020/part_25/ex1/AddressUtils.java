@@ -1,4 +1,4 @@
-package ru.north32.mireajava.lesson25.exercise2;
+package ru.alexgeniusman.java2020.part_25.ex1;
 
 public class AddressUtils {
 
