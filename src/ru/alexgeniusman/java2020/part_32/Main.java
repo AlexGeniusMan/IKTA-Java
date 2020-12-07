@@ -28,13 +28,21 @@ public class Main {
         InternetOrdersManager ordersManager = new InternetOrdersManager();
         ordersManager.add(order);
 
+<<<<<<< HEAD
         FileOutputStream fileOutputStream = new FileOutputStream("test.txt");
+=======
+        FileOutputStream fileOutputStream = new FileOutputStream("test.dump");
+>>>>>>> origin/master
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(ordersManager);
         objectOutputStream.close();
 
 
+<<<<<<< HEAD
         FileInputStream fileInputStream = new FileInputStream("test.txt");
+=======
+        FileInputStream fileInputStream = new FileInputStream("test.dump");
+>>>>>>> origin/master
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
         ordersManager = (InternetOrdersManager) objectInputStream.readObject();
         objectInputStream.close();
