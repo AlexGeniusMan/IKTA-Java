@@ -11,9 +11,9 @@ public class GameModel {
     final int START_SNAKE_SIZE = 5;
     final int START_SNAKE_X = CANVAS_WIDTH / 2;
     final int START_SNAKE_Y = CANVAS_HEIGHT / 2;
-    final Color SNAKE_COLOR = Color.darkGray;
-    final Color FOOD_COLOR = Color.green;
-    final Color BACKGROUND_COLOR = Color.white;
+    final Color SNAKE_COLOR = Color.green;
+    final Color FOOD_COLOR = Color.red;
+    final Color BACKGROUND_COLOR = Color.black;
     final int SNAKE_DELAY = 150;
 
     private Random random;

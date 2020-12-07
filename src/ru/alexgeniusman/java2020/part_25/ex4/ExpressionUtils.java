@@ -3,11 +3,6 @@ package ru.alexgeniusman.java2020.part_25.ex4;
 public class ExpressionUtils {
 
     public static boolean isBracketsBalanced(String expression) {
-        /*
-            Java doesnt support recursive regular expressions,
-            like this \((?:[^)(]+|(?R))*+\).
-            So let's find it out by manual count.
-        */
         int value = 0;
         for (int i = 0; i < expression.length(); i++) {
             if (expression.charAt(i) == '(') {
